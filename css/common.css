@@ -1,0 +1,71 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
+}
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+}
+
+.header-web {
+    color: var(--accent-color);
+}
+
+.logo {
+    color: var(--title-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+/* site-nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* contacts */
+.contacnts-title {
+    color: var(--primary-text-color);
+}
+
+.contacnts-title:hover,
+.contacnts-title:focus {
+    color: var(--accent-color);
+}
+
+.contacnts-link {
+    color: var(--secondary-text-color);
+    background: #2F303A;
+}
+
+.contacnts-link:hover,
+.contacnts-link:focus {
+    color: var(--accent-color);
+}
+
+.adress-title {
+    color: var(--primary-white-color);
+    background: #2F303A;
+}
+
+/* Button */
+
+.button {
+    color: var(--title-text-color);
+    background-color: var(--primary-white-color);
+}
+
+.button.primary {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
