@@ -9,6 +9,10 @@
 body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;    
 }
 
 .header-web {
@@ -17,6 +21,11 @@ body {
 
 .logo {
     color: var(--title-text-color);
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 .list {
@@ -27,6 +36,10 @@ body {
 
 .site-nav .link {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -37,18 +50,56 @@ body {
 /* section */
 .section-title {
     color: var(--title-text-color);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
+
+.section-name {
+    color: var(--title-text-color);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.section-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.work-name {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
 
 /* hero */
 .hero-title {
     color: var(--primary-white-color);
     background: #2F303A;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 /* contacts */
 .contacnts-title {
     color: var(--primary-text-color);
-}
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    }
 
 .contacnts-title:hover,
 .contacnts-title:focus {
@@ -58,6 +109,9 @@ body {
 .contacnts-link {
     color: var(--secondary-text-color);
     background: #2F303A;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .contacnts-link:hover,
@@ -65,15 +119,28 @@ body {
     color: var(--accent-color);
 }
 
+.adress {    
+    font-style: normal;
+}
+
 .adress-title {
     color: var(--primary-white-color);
     background: #2F303A;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71
+    letter-spacing: 0.03em;
 }
 
 /* Our team */
 
 .team {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /* Button */
@@ -86,4 +153,11 @@ body {
 .button.primary {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+button {
+    font-family: Roboto;
 }
