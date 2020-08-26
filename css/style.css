@@ -26,6 +26,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 .list {
@@ -40,6 +41,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -125,10 +127,10 @@ body {
 
 .adress-title {
     color: var(--primary-white-color);
-    background: #2F303A;
+    background: #2F303A;    
     font-weight: normal;
     font-size: 14px;
-    line-height: 1.71
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
