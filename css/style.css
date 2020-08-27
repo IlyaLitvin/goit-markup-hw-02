@@ -95,25 +95,27 @@ body {
 }
 
 /* contacts */
-.contacnts-title {
+.contacts-title {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    }
+    text-decoration: none;
+}
 
 .contacnts-title:hover,
 .contacnts-title:focus {
     color: var(--accent-color);
 }
 
-.contacnts-link {
+.contacts-link {
     color: var(--secondary-text-color);
     background: #2F303A;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 .contacnts-link:hover,
@@ -143,6 +145,7 @@ body {
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 /* Button */
@@ -150,6 +153,7 @@ body {
 .button {
     color: var(--title-text-color);
     background-color: var(--primary-white-color);
+    text-decoration: none;
 }
 
 .button.primary {

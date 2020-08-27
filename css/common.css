@@ -51,8 +51,10 @@ body {
 }
 
 /* contacts */
-.contacnts-title {
+
+.contacts-title {
     color: var(--primary-text-color);
+    text-decoration: none;
 }
 
 .contacnts-title:hover,
@@ -60,16 +62,17 @@ body {
     color: var(--accent-color);
 }
 
-.contacnts-link {
+.contacts-link {
     color: var(--secondary-text-color);
     background: #2F303A;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
-.contacnts-link:hover,
-.contacnts-link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
     color: var(--accent-color);
 }
 
@@ -127,7 +130,7 @@ button:focus {
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.87;
-    letter-spacing: 0.03em;    
+    letter-spacing: 0.03em;  
 }
 
 .expamles-text {
@@ -138,4 +141,8 @@ button:focus {
 .expamles-text:focus {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+}
+
+.examples-link {
+    text-decoration: none;
 }
