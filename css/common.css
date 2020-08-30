@@ -50,6 +50,14 @@ body {
     color: var(--accent-color);
 }
 
+.site-nav .link:active {
+    color: var(--accent-color);
+}
+
+.site-nav .current:visited {
+    color: var(--accent-color);
+}
+
 /* contacts */
 
 .contacts-title {

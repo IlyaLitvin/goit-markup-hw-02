@@ -49,6 +49,14 @@ body {
     color: var(--accent-color);
 }
 
+.site-nav .link:active {
+    color: var(--accent-color);
+}
+
+.site-nav .current:visited {
+    color: var(--accent-color);
+}
+
 /* section */
 .section-title {
     color: var(--title-text-color);
